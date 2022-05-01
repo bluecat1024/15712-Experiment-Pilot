@@ -3,3 +3,4 @@ custom
 original
 logfile
 *.pyc
+benchbase*

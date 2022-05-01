@@ -45,8 +45,9 @@ create table t1 (id int, value int);
 COPY t1 FROM '/home/ubuntu/data.csv' DELIMITER ',' CSV HEADER;
 ```
 Then: Change the script execute.sh which uses execute.py. After changing:
+Argument: 1: ours, 2: pg, 3: force-replan
 ```bash
-./execute.sh
+./execute.sh 1
 ```
 
 4. Pre-process output

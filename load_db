@@ -1,0 +1,2 @@
+create table t1 (id int, value int);
+COPY t1 FROM '/home/ubuntu/data.csv' DELIMITER ',' CSV HEADER;

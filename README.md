@@ -20,6 +20,6 @@ export PATH
 
 To clone and build a certain branch, invoke like `bash build_version.sh sort`
 
-To switch to a certain branch and install invoke like `bash install_verion.sh sort`
+To switch to a certain branch and install invoke like `bash install_verion.sh sort`. Remember to re-launch postgres if switching to another postgres.
 
 To start/stop pg instance locally, invoke `bash launch_pg.sh` and `bash stop_pg.sh`

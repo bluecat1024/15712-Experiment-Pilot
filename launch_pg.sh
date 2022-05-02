@@ -8,3 +8,5 @@ pg_ctl -D /usr/local/pgsql/data -l logfile start
 
 createdb benchbase
 createuser -s -e admin 
+
+createdb test

@@ -23,7 +23,7 @@ with open(file_path, "r") as file:
                 finish_count[1].append("1")
             else:
                 finish_count[1].append(str(int(finish_count[1][-1]) + 1))
-            finish_count[2.append(segments[-2])]
+            finish_count[2].append(segments[-2])
             exec_time += int(segments[-2])
         elif segments[1] == "Build":
             replan_time += int(segments[-2])

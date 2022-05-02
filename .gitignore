@@ -4,3 +4,6 @@ original
 logfile
 *.pyc
 benchbase*
+data*
+data.csv
+type*.txt
